@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no, width=device-width">
+		<title> Eat Eat Eat</title> 
+		<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+		<style>
+		body {
+			background-image : url('food.jpg');
+			background-repeat: no-repeat;
+  			background-attachment: fixed; 
+  			background-size: 100% 100%;
+			}
+		</style>	
+	</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row" id="eat_app">
+			<section id="eat_side_bar">
+				<div class="menu_icon">
+					<i class="eat eat_bars"></i>
+				</div>
+				<div class=menu>
+					<ul>
+						<li>Arabian</li>
+						<li>Chinese</li>
+						<li class="active">Indian</li>
+					</ul>
+				</div>
+				<div class="menu_filter">
+					<i class="eat eat_bar_chart"></i> 
+				</div>
+			</section>
+			<section class="col-12" id="eat_header_bar">
+				<div class="row">
+					<div class="col-12">
+
+						<span>Order</span>&nbsp;Food
+					</div>
+				</div>
+				<div class="row eat_search_row">
+					<div class="col-12">
+						<i class="eat eat_search"></i>
+						<input type="text" class="eat_ip_search" placeholder="Search by Food/Hotel">
+					</div>
+				</div>
+			</section>
+			<section class="col-12" id="eat_product_name">
+				<div class="row eat_food_row">
+					<div class="col-9">
+						<div class="food_title active">
+							<img src="imgs/food/masaladosa.png" alt="" class="eat_product_img">
+							<span class="food_name">Masala Dosa</span>
+							<span class="food_detail">Traditional dosa with Pottatto Masala filled inside served with sambar and chutney</span>
+							<h3>Quantity</h3>  
+								<div class="product-quantity">
+      							<input type="number" value="2" min="1">
+    							</div>
+							<ul id="food_meta">
+								<li>
+									Price
+									<div class="product-line-price">&#x20b9; 60</div>
+								</li>
+							</ul>
+							<button class="btn btn-sm btn-default" type="button">Order Now</button>
+							<div class="product-removal">
+      							<button class="remove-product">
+        						Remove
+      							</button>
+    						</div>
+						</div>
+					</div>
+
+					<div class="col-9">
+						<div class="food_title active">
+							<img src="imgs/food/chickennood.png" alt="" class="eat_product_img">
+							<span class="food_name">Chicken Noodles</span>
+							<span class="food_detail">Noodles with the mix of chicken</span>
+							<h3>Quantity</h3>  
+								<div class="product-quantity">
+      							<input type="number" value="2" min="1">
+    							</div>
+							<ul id="food_meta">
+								<li>
+									Price
+									<div class="product-line-price">&#x20b9; 160</div>
+								</li>
+							</ul>
+									
+
+							<button class="btn btn-sm btn-default" type="button">Order Now</button>
+							<div class="product-removal">
+      							<button class="remove-product">
+        						Remove
+      							</button>
+    						</div>
+						</div>
+					</div>
+
+					<div class="col-9">
+						<div class="food_title active">
+							<img src="imgs/food/chickenbiri.png" alt="" class="eat_product_img">
+							<span class="food_name">Chicken Biriyani</span>
+							<span class="food_detail">Biriyani rice with spicy flavoured chicken mix served with pappadam and salad</span>
+								<h3>Quantity</h3>  
+								<div class="product-quantity">
+      							<input type="number" value="2" min="1">
+    							</div>
+   								 
+							<ul id="food_meta">
+								<li>
+									Price
+									<div class="product-line-price">&#x20b9; 150</div>
+								</li>
+							</ul>
+							<button class="btn btn-sm btn-default" type="button">Order Now</button>
+							<div class="product-removal">
+      							<button class="remove-product">
+        						Remove
+      							</button>
+    						</div>
+						</div>
+					</div>	
+					
+			
+	
+	<script src="script1.js"></script>
+			
+	</section>
+		
+		<div class="totals">
+    				<div class="totals-item">
+      					<label>Subtotal</label>
+      				<div class="totals-value" id="cart-subtotal">370</div>
+    				</div>
+    				<div class="totals-item">
+      				<label>Tax (5%)</label>
+      				<div class="totals-value" id="cart-tax">3</div>
+    				</div>
+    				<div class="totals-item">
+      				<label>Shipping</label>
+      				<div class="totals-value" id="cart-shipping">15.00</div>
+    				</div>
+    				<div class="totals-item totals-item-total">
+      				<label>Grand Total</label>
+      				<div class="totals-value" id="cart-total">388</div>
+    				</div>
+  					</div>
+      
+      				<button class="checkout">Checkout</button>
+
+					</div>						
+
+		
+			
+
+
